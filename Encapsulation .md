@@ -23,7 +23,9 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 ---
 
 ## 💻 Program
-
+class Rectangle: def init(self): self.__length = int(input("Enter a length of the rectangle : ")) self.__breadth = int(input("Enter a breadth of the rectangle : ")) self.area = self.__length * self.__breadth print(f"Length : {self.__length} sq.units") print(f"Breadth : {self.__breadth} sq.units") print(f"Area of the Rectangle : {self.area} sq.units") call = Rectangle() print("\nCalling the private members outside the class.....") try : print("Length of the rectangle : ",call.__length,"sq.units") except : print("AttributeError: 'Rectangle' object has no attribute '__length'") try : print("Breadth of the rectangle : ",call.__breadth,"sq.units") except : print("AttributeError: 'Rectangle' object has no attribute '__breadth'")
 ## Output
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/829dd0e0-55a3-4985-b4c7-68ff2288312a" />
 
 ## Result
+Thus, The Python program to implement Encapsulation in Python by defining a class Rectangle with private member variables __length and __breadth. was executed successfully.
